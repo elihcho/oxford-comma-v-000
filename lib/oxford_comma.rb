@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  new_array = array.slice(0...(array.length))
+  new_array = array.slice(0,array.length)
   if array.length == 1
     return array[0]
   else
